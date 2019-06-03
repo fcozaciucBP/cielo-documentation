@@ -1,0 +1,76 @@
+/* your custom css */
+div.fixedHeaderContainer {
+  background-color: #fff !important;
+  box-shadow: 0 1px 8px 0 #c6dbe5, 0 1px 1px 0 rgba(0, 0, 0, 0.01);
+  margin-bottom: 100px;
+}
+
+h2.headerTitleWithLogo {
+  display: none !important;
+}
+
+.navigationSlider .slidingNav ul li > a:focus,
+.navigationSlider .slidingNav ul li > a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive > a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive > a {
+  background-color: #fff !important;
+}
+
+.navigationSlider .slidingNav ul li a:hover,
+.navigationSlider .slidingNav ul li.siteNavItemActive a,
+.navigationSlider .slidingNav ul li.siteNavGroupActive a {
+  color: #00a4ec;
+}
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+  .fixedHeaderContainer header {
+    margin: 20px;
+  }
+
+  .fixedHeaderContainer header img {
+    width: 109px;
+    height: 51px;
+  }
+
+  .navPusher {
+    padding-top: 110px !important;
+  }
+
+  .nav-home img {
+    width: 106px;
+    height: 35px;
+    max-width: none;
+  }
+
+  .nav-footer {
+    padding: 0 !important;
+  }
+
+  .nav-footer .sitemap {
+    background-color: #343a40 !important;
+    padding: 2em 15em;
+    margin: 0 !important;
+    width: 100%;
+    max-width: none;
+  }
+
+  .nav-footer .end-page {
+    background-color: #00a4ec;
+    padding: 2em 15em;
+    margin: 0 !important;
+    width: 100%;
+    max-width: none;
+  }
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
